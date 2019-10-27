@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url("../imagens/game.jpg");
+    background-image: url("game.jpg");
     background-position: 155% 35%;
     background-attachment: fixed;
 }
