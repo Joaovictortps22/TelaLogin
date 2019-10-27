@@ -36,7 +36,7 @@ Class Usuario{
         }
     }
 
-    public function logar($email, $senha){
+    public function logar($email, $senha){ 
         global $pdo;    
         $sql = $pdo->prepare("SELECT id_usuario FROM usuarios WHERE email = :e AND senha = :s");
         $sql->bindValue(":e",$email);
