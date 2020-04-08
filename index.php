@@ -1,4 +1,3 @@
-/* Instanciar a classe */
 <?php
 require_once 'usuarios.php';
 $u = new Usuario;
